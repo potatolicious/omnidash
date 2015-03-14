@@ -13,9 +13,12 @@ class AppDelegate: NSObject, NSApplicationDelegate {
 
     @IBOutlet weak var window: NSWindow!
 
+    var fsWindowController: FullscreenWindowController!
 
     func applicationDidFinishLaunching(aNotification: NSNotification) {
-        // Insert code here to initialize your application
+        self.fsWindowController = FullscreenWindowController()
+        self.fsWindowController.window!.makeKeyAndOrderFront(self)
+//        self.fsWindowController.showWindow(self)
     }
 
     func applicationWillTerminate(aNotification: NSNotification) {

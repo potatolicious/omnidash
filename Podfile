@@ -4,6 +4,7 @@
 target 'Omnidash' do
 
 pod 'AFNetworking', '~> 2.5.1'
+pod 'Masonry', '~> 0.6.1'
 
 end
 
