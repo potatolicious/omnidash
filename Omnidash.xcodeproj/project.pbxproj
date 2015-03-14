@@ -1,0 +1,408 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C4867E3D1AB4F39D00B7B4CF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867E3C1AB4F39D00B7B4CF /* AppDelegate.swift */; };
+		C4867E3F1AB4F39D00B7B4CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4867E3E1AB4F39D00B7B4CF /* Images.xcassets */; };
+		C4867E421AB4F39D00B7B4CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4867E401AB4F39D00B7B4CF /* MainMenu.xib */; };
+		C4867E4E1AB4F39D00B7B4CF /* OmnidashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867E4D1AB4F39D00B7B4CF /* OmnidashTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C4867E481AB4F39D00B7B4CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C4867E2F1AB4F39D00B7B4CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C4867E361AB4F39D00B7B4CF;
+			remoteInfo = Omnidash;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C4867E371AB4F39D00B7B4CF /* Omnidash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omnidash.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4867E3B1AB4F39D00B7B4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4867E3C1AB4F39D00B7B4CF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C4867E3E1AB4F39D00B7B4CF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C4867E411AB4F39D00B7B4CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		C4867E471AB4F39D00B7B4CF /* OmnidashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmnidashTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C4867E4C1AB4F39D00B7B4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4867E4D1AB4F39D00B7B4CF /* OmnidashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmnidashTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C4867E341AB4F39D00B7B4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4867E441AB4F39D00B7B4CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C4867E2E1AB4F39D00B7B4CF = {
+			isa = PBXGroup;
+			children = (
+				C4867E391AB4F39D00B7B4CF /* Omnidash */,
+				C4867E4A1AB4F39D00B7B4CF /* OmnidashTests */,
+				C4867E381AB4F39D00B7B4CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C4867E381AB4F39D00B7B4CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C4867E371AB4F39D00B7B4CF /* Omnidash.app */,
+				C4867E471AB4F39D00B7B4CF /* OmnidashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C4867E391AB4F39D00B7B4CF /* Omnidash */ = {
+			isa = PBXGroup;
+			children = (
+				C4867E3C1AB4F39D00B7B4CF /* AppDelegate.swift */,
+				C4867E3E1AB4F39D00B7B4CF /* Images.xcassets */,
+				C4867E401AB4F39D00B7B4CF /* MainMenu.xib */,
+				C4867E3A1AB4F39D00B7B4CF /* Supporting Files */,
+			);
+			path = Omnidash;
+			sourceTree = "<group>";
+		};
+		C4867E3A1AB4F39D00B7B4CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4867E3B1AB4F39D00B7B4CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4867E4A1AB4F39D00B7B4CF /* OmnidashTests */ = {
+			isa = PBXGroup;
+			children = (
+				C4867E4D1AB4F39D00B7B4CF /* OmnidashTests.swift */,
+				C4867E4B1AB4F39D00B7B4CF /* Supporting Files */,
+			);
+			path = OmnidashTests;
+			sourceTree = "<group>";
+		};
+		C4867E4B1AB4F39D00B7B4CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C4867E4C1AB4F39D00B7B4CF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C4867E361AB4F39D00B7B4CF /* Omnidash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4867E511AB4F39D00B7B4CF /* Build configuration list for PBXNativeTarget "Omnidash" */;
+			buildPhases = (
+				C4867E331AB4F39D00B7B4CF /* Sources */,
+				C4867E341AB4F39D00B7B4CF /* Frameworks */,
+				C4867E351AB4F39D00B7B4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omnidash;
+			productName = Omnidash;
+			productReference = C4867E371AB4F39D00B7B4CF /* Omnidash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C4867E461AB4F39D00B7B4CF /* OmnidashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C4867E541AB4F39D00B7B4CF /* Build configuration list for PBXNativeTarget "OmnidashTests" */;
+			buildPhases = (
+				C4867E431AB4F39D00B7B4CF /* Sources */,
+				C4867E441AB4F39D00B7B4CF /* Frameworks */,
+				C4867E451AB4F39D00B7B4CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C4867E491AB4F39D00B7B4CF /* PBXTargetDependency */,
+			);
+			name = OmnidashTests;
+			productName = OmnidashTests;
+			productReference = C4867E471AB4F39D00B7B4CF /* OmnidashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C4867E2F1AB4F39D00B7B4CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Jerry Wong";
+				TargetAttributes = {
+					C4867E361AB4F39D00B7B4CF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					C4867E461AB4F39D00B7B4CF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = C4867E361AB4F39D00B7B4CF;
+					};
+				};
+			};
+			buildConfigurationList = C4867E321AB4F39D00B7B4CF /* Build configuration list for PBXProject "Omnidash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C4867E2E1AB4F39D00B7B4CF;
+			productRefGroup = C4867E381AB4F39D00B7B4CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C4867E361AB4F39D00B7B4CF /* Omnidash */,
+				C4867E461AB4F39D00B7B4CF /* OmnidashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C4867E351AB4F39D00B7B4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4867E3F1AB4F39D00B7B4CF /* Images.xcassets in Resources */,
+				C4867E421AB4F39D00B7B4CF /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4867E451AB4F39D00B7B4CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C4867E331AB4F39D00B7B4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4867E3D1AB4F39D00B7B4CF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4867E431AB4F39D00B7B4CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C4867E4E1AB4F39D00B7B4CF /* OmnidashTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C4867E491AB4F39D00B7B4CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C4867E361AB4F39D00B7B4CF /* Omnidash */;
+			targetProxy = C4867E481AB4F39D00B7B4CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C4867E401AB4F39D00B7B4CF /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C4867E411AB4F39D00B7B4CF /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C4867E4F1AB4F39D00B7B4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C4867E501AB4F39D00B7B4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		C4867E521AB4F39D00B7B4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Omnidash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C4867E531AB4F39D00B7B4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Omnidash/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C4867E551AB4F39D00B7B4CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OmnidashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omnidash.app/Contents/MacOS/Omnidash";
+			};
+			name = Debug;
+		};
+		C4867E561AB4F39D00B7B4CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OmnidashTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omnidash.app/Contents/MacOS/Omnidash";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C4867E321AB4F39D00B7B4CF /* Build configuration list for PBXProject "Omnidash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4867E4F1AB4F39D00B7B4CF /* Debug */,
+				C4867E501AB4F39D00B7B4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C4867E511AB4F39D00B7B4CF /* Build configuration list for PBXNativeTarget "Omnidash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4867E521AB4F39D00B7B4CF /* Debug */,
+				C4867E531AB4F39D00B7B4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C4867E541AB4F39D00B7B4CF /* Build configuration list for PBXNativeTarget "OmnidashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C4867E551AB4F39D00B7B4CF /* Debug */,
+				C4867E561AB4F39D00B7B4CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C4867E2F1AB4F39D00B7B4CF /* Project object */;
+}
