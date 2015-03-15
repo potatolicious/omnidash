@@ -14,6 +14,9 @@
 		C4867E421AB4F39D00B7B4CF /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = C4867E401AB4F39D00B7B4CF /* MainMenu.xib */; };
 		C4867E4E1AB4F39D00B7B4CF /* OmnidashTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867E4D1AB4F39D00B7B4CF /* OmnidashTests.swift */; };
 		C4867E581AB4F70E00B7B4CF /* FullscreenWindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867E571AB4F70E00B7B4CF /* FullscreenWindowController.swift */; };
+		C4867E5A1AB4FD4500B7B4CF /* WidgetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867E591AB4FD4500B7B4CF /* WidgetManager.swift */; };
+		C4867E5C1AB4FFCC00B7B4CF /* WidgetBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867E5B1AB4FFCC00B7B4CF /* WidgetBaseViewController.swift */; };
+		C4867E5F1AB504D400B7B4CF /* WeatherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4867E5E1AB504D400B7B4CF /* WeatherViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +44,9 @@
 		C4867E4C1AB4F39D00B7B4CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C4867E4D1AB4F39D00B7B4CF /* OmnidashTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OmnidashTests.swift; sourceTree = "<group>"; };
 		C4867E571AB4F70E00B7B4CF /* FullscreenWindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FullscreenWindowController.swift; path = Classes/FullscreenWindowController.swift; sourceTree = "<group>"; };
+		C4867E591AB4FD4500B7B4CF /* WidgetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WidgetManager.swift; path = Classes/WidgetManager.swift; sourceTree = "<group>"; };
+		C4867E5B1AB4FFCC00B7B4CF /* WidgetBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WidgetBaseViewController.swift; path = Classes/WidgetBaseViewController.swift; sourceTree = "<group>"; };
+		C4867E5E1AB504D400B7B4CF /* WeatherViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WeatherViewController.swift; path = Classes/Widgets/WeatherViewController.swift; sourceTree = "<group>"; };
 		E07A84C11810ED557ED4E23C /* Pods-OmnidashTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OmnidashTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OmnidashTests/Pods-OmnidashTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -96,8 +102,11 @@
 		C4867E391AB4F39D00B7B4CF /* Omnidash */ = {
 			isa = PBXGroup;
 			children = (
+				C4867E5D1AB504C200B7B4CF /* Widgets */,
 				C4867E3C1AB4F39D00B7B4CF /* AppDelegate.swift */,
+				C4867E591AB4FD4500B7B4CF /* WidgetManager.swift */,
 				C4867E571AB4F70E00B7B4CF /* FullscreenWindowController.swift */,
+				C4867E5B1AB4FFCC00B7B4CF /* WidgetBaseViewController.swift */,
 				C4867E3E1AB4F39D00B7B4CF /* Images.xcassets */,
 				C4867E401AB4F39D00B7B4CF /* MainMenu.xib */,
 				C4867E3A1AB4F39D00B7B4CF /* Supporting Files */,
@@ -128,6 +137,14 @@
 				C4867E4C1AB4F39D00B7B4CF /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C4867E5D1AB504C200B7B4CF /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				C4867E5E1AB504D400B7B4CF /* WeatherViewController.swift */,
+			);
+			name = Widgets;
 			sourceTree = "<group>";
 		};
 		D5B2530BF6D1DC9B61187566 /* Pods */ = {
@@ -308,7 +325,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4867E581AB4F70E00B7B4CF /* FullscreenWindowController.swift in Sources */,
+				C4867E5F1AB504D400B7B4CF /* WeatherViewController.swift in Sources */,
 				C4867E3D1AB4F39D00B7B4CF /* AppDelegate.swift in Sources */,
+				C4867E5A1AB4FD4500B7B4CF /* WidgetManager.swift in Sources */,
+				C4867E5C1AB4FFCC00B7B4CF /* WidgetBaseViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
